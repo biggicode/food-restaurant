@@ -227,3 +227,29 @@ section {
 .service__heading__h2 {
   font-size: var(--h2-font);
 }
+
+.service__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  grid-gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.service__container__box {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.service__container__box__img {
+  width: 90px;
+}
+
+.service__container__box__title {
+  margin: 4px 0 10px;
+  color: var(--main-color);
+  font-size: 1.2rem;
+}
+
+.service__container__box__text {
+  line-height: 1.7;
+}
