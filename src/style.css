@@ -345,3 +345,20 @@ section {
   color: var(--bg-color);
   background-color: var(--text-color);
 }
+
+@media (max-width: 1560px) {
+  header {
+    padding: 15px 40px;
+  }
+
+  :root {
+    --big-font: 3.5rem;
+    --h2-font: 2rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  section {
+    padding: 50px 8%;
+  }
+}
