@@ -361,4 +361,35 @@ section {
   section {
     padding: 50px 8%;
   }
+  #menu-icon {
+    display: initial;
+    color: var(--text-color);
+  }
+
+  .navbar {
+    position: absolute;
+    top: -400px;
+    left: 0;
+    right: 0;
+  }
+  .navbar__list {
+    flex-direction: column;
+    text-align: center;
+    background-color: #2b2640;
+    transition: 0.3s;
+  }
+
+  .navbar__list.active {
+    top: 70px;
+  }
+
+  .navbar__link {
+    padding: 1.5rem;
+    display: block;
+  }
+
+  .col {
+    width: 50%;
+    margin-bottom: 10px;
+  }
 }
