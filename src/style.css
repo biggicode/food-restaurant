@@ -212,3 +212,18 @@ section {
   padding: 7px 10px;
   border-radius: 0 0.5rem 0 0.5rem;
 }
+
+/* Service */
+
+.service__heading {
+  text-align: center;
+}
+
+.service__heading__span {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.service__heading__h2 {
+  font-size: var(--h2-font);
+}
