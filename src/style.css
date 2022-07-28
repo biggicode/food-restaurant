@@ -145,3 +145,70 @@ section {
 .food-menu__heading {
   text-align: center;
 }
+
+.food-menu__heading__span {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.food-menu__heading__h2 {
+  font-size: var(--h2-font);
+}
+
+.food-menu__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+
+.food-menu__container__box {
+  position: relative;
+  margin-top: 4rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #feeee7;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+.food-menu__container__box__image-wrapper {
+  width: 230px;
+  height: 230px;
+}
+
+.food-menu__container__box__image-wrapper__img {
+  width: 100%;
+  height: 100%;
+}
+
+.food-menu__container__box__h2 {
+  font-size: 1.3rem;
+  color: var(--bg-color);
+}
+
+.food-menu__container__box__h3 {
+  color: var(--bg-color);
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 4px 0 10px;
+}
+
+.food-menu__container__box__price {
+  font-size: var(--p-font);
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.bx-cart-alt {
+  background-color: var(--main-color);
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  padding: 7px 10px;
+  border-radius: 0 0.5rem 0 0.5rem;
+}
