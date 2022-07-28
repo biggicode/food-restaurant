@@ -66,3 +66,22 @@ header {
   cursor: pointer;
   display: none;
 }
+
+section {
+  padding: 70px 17%;
+}
+
+#home {
+  width: 100%;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+
+#home__img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+}
