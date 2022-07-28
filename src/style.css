@@ -413,3 +413,9 @@ section {
     padding: 100px 7%;
   }
 }
+
+@media (max-width: 575px) {
+  .col {
+    width: 100%;
+  }
+}
