@@ -393,3 +393,23 @@ section {
     margin-bottom: 10px;
   }
 }
+
+@media (max-width: 720px) {
+  header {
+    padding: 10px 1rem;
+  }
+  #home {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about__wrapper-image {
+    order: 2;
+  }
+  section {
+    padding: 100px 7%;
+  }
+}
