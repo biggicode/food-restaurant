@@ -371,15 +371,15 @@ section {
     top: -400px;
     left: 0;
     right: 0;
+    transition: 0.3s;
   }
   .navbar__list {
     flex-direction: column;
     text-align: center;
     background-color: #2b2640;
-    transition: 0.3s;
   }
 
-  .navbar__list.active {
+  .navbar.active {
     top: 70px;
   }
 
