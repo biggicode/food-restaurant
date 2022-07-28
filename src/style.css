@@ -270,3 +270,52 @@ section {
   color: var(--bg-color);
   margin-bottom: 30px;
 }
+
+/* Footer */
+
+.footer__main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  padding: 10px 0;
+}
+
+.col {
+  width: 25%;
+}
+
+.col__heading {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.col__heading::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  left: 0;
+  bottom: -8px;
+  background-color: var(--main-color);
+}
+
+.footer__list li:not(last-child) {
+  margin-bottom: 1rem;
+}
+
+.col a {
+  color: #9897a9;
+  font-size: 1rem;
+  display: block;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+
+.col a:hover {
+  color: var(--text-color);
+  transform: translateX(-12px);
+}
